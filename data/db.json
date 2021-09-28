@@ -23,6 +23,30 @@
       "details": "Pay electricity bill before 21st",
       "category": "Money",
       "id": 4
+    },
+    {
+      "title": "Pay to Nilesh",
+      "details": "I want to pay money to Nilesh",
+      "category": "Money",
+      "id": 5
+    },
+    {
+      "title": "Happy Birthday",
+      "details": "My Birthday",
+      "category": "Money",
+      "id": 6
+    },
+    {
+      "title": "Enjoy Weekend",
+      "details": "My Weekend",
+      "category": "Todos",
+      "id": 7
+    },
+    {
+      "title": "Dummy Reminder",
+      "details": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.",
+      "category": "Reminders",
+      "id": 8
     }
   ]
 }
