@@ -93,7 +93,7 @@ const Create = () => {
       </form>
 
         <FormControl className={classes.field}>
-          <FormLabel>Note Category</FormLabel>
+          <FormLabel color="secondary">Note Category</FormLabel>
           <RadioGroup value={category} onChange={(e) => setCategory(e.target.value)}>
             <FormControlLabel value="Money" control={<Radio />} label="Money"></FormControlLabel>
             <FormControlLabel value="Todos" control={<Radio />} label="Todo"></FormControlLabel>
