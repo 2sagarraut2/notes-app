@@ -22,10 +22,6 @@ const Create = () => {
   const [detailsError, setDetailsError] = useState(false);
   const [category, setCategory] = useState("Money")
 
-  const handleOnChange = (e) => {
-    
-  }
-
   const onSubmit = () => {
     console.log(title, details);
   }
