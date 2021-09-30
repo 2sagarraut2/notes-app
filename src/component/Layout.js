@@ -5,6 +5,7 @@ import { AddCircleOutlined, SubjectOutlined } from '@material-ui/icons';
 import { useHistory, useLocation } from 'react-router';
 import { format } from 'date-fns'
 import Avatar from '@material-ui/core/Avatar';
+import { Link } from 'react-router-dom';
 
 const drawerWidth = 200;
 
@@ -75,7 +76,7 @@ const Layout = ({ children }) => {
             >
                 <Toolbar>
                     <Typography className={classes.date}>
-                        Today is the { format(new Date(), 'do MMMM Y') }
+                        Today is the <b>{ format(new Date(), 'do MMMM Y') }</b>
                     </Typography>
                     <Typography>
                         Mario
