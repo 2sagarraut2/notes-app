@@ -76,7 +76,7 @@ const Layout = ({ children }) => {
             >
                 <Toolbar>
                     <Typography className={classes.date}>
-                        Today is the <b>{ format(new Date(), 'do MMMM Y') }</b>
+                        Today is the { format(new Date(), 'do MMMM Y') }
                     </Typography>
                     <Typography>
                         Mario
