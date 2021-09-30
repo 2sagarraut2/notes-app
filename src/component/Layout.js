@@ -5,8 +5,9 @@ import { AddCircleOutlined, SubjectOutlined } from '@material-ui/icons';
 import { useHistory, useLocation } from 'react-router';
 import { format } from 'date-fns'
 import Avatar from '@material-ui/core/Avatar';
+import { Link } from 'react-router-dom';
 
-const drawerWidth = 240
+const drawerWidth = 200;
 
 const useStyles = makeStyles((theme) => {
     return {
@@ -40,7 +41,10 @@ const useStyles = makeStyles((theme) => {
         toolbar: theme.mixins.toolbar,
         avatar: {
             marginLeft: theme.spacing(2)
-        }
+        },
+        icon: {
+            minWidth: "40px",
+        },
     }
 })
 
@@ -103,7 +107,7 @@ const Layout = ({ children }) => {
                             onClick={() => history.push(item.path)}
                             className={location.pathname === item.path ? classes.active : null}
                         >
-                            <ListItemIcon>{item.icon}</ListItemIcon>
+                            <ListItemIcon className={classes.icon} >{item.icon}</ListItemIcon>
                             <ListItemText primary={item.text} />
                         </ListItem>
                     ))}
